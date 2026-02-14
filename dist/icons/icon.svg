@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="80" fill="url(#grad)"/>
+  <g fill="white">
+    <!-- Book/Diary icon -->
+    <path d="M120 100 h240 a30 30 0 0 1 30 30 v252 a30 30 0 0 1 -30 30 h-240 a20 20 0 0 1 -20 -20 v-272 a20 20 0 0 1 20 -20 z" fill="white" opacity="0.95"/>
+    <rect x="100" y="100" width="30" height="312" rx="10" fill="#6366f1"/>
+    <!-- Lines on page -->
+    <rect x="160" y="160" width="180" height="12" rx="6" fill="#c4b5fd"/>
+    <rect x="160" y="195" width="150" height="12" rx="6" fill="#c4b5fd"/>
+    <rect x="160" y="230" width="170" height="12" rx="6" fill="#c4b5fd"/>
+    <rect x="160" y="265" width="130" height="12" rx="6" fill="#c4b5fd"/>
+    <!-- Sparkle -->
+    <path d="M420 80 l10 30 l30 10 l-30 10 l-10 30 l-10 -30 l-30 -10 l30 -10 z" fill="#fbbf24"/>
+    <path d="M450 160 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 l18 -6 z" fill="#fbbf24"/>
+    <!-- Checkmark -->
+    <circle cx="400" cy="380" r="60" fill="#10b981"/>
+    <path d="M370 380 l20 20 l40 -40" stroke="white" stroke-width="12" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
